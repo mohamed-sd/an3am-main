@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "965495466380",
+    "project_id": "miningmarket-firebase",
+    "storage_bucket": "miningmarket-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965495466380:android:ef38a2d6258668b5f08ea9",
+        "android_client_info": {
+          "package_name": "sd.an3am.asd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAd2Z-N9WusLMMt6gd1y8MG1z7LfUo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965495466380-ft4liu6qmgrl90q5s357ru6orp5c47fu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965495466380-u212iir0n0vc0fnimdrvvhue4s8tolpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.MiningMarket.MiningMarketMyApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
