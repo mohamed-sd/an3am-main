@@ -280,8 +280,8 @@ class HomeScreenState extends State<HomeScreen>
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
-                            width: 1, color: context.color.lightGreen)),
-                    child: Icon(Icons.person, color: context.color.lightGreen),
+                            width: 1, color: Colors.white)),
+                    child: Icon(Icons.person, color: Colors.white),
                   ),
                 ),
               ),
@@ -306,12 +306,12 @@ class HomeScreenState extends State<HomeScreen>
                   child: appbarTitleWidget()),
             ],
           ),
-          backgroundColor: Color(0xff07311A),
+          backgroundColor: context.color.mainBrown,
           foregroundColor: Colors.black,
           // backgroundColor: const Color.fromARGB(0, 0, 0, 0),
           actions: appbarActionsWidget(),
         ),
-        backgroundColor: context.color.mainBrown,
+        backgroundColor: context.color.mainGold,
         body: Column(
           children: [
             blogMarqueeWidget(),
@@ -374,7 +374,7 @@ class HomeScreenState extends State<HomeScreen>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   0, 15, 0, 5),
                               child: Text(
-                                'أهلاً بك في حصاد !',
+                                'أهلاً بك في انعام !',
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 20,
@@ -386,7 +386,7 @@ class HomeScreenState extends State<HomeScreen>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   0, 5, 3, 0),
                               child: Text(
-                                'حيث نفتح لك افاقا جديدة في عالم الزراعة المبتكرة ،',
+                                'حيث نفتح لك افاقا جديدة في عالم الثروة الحيوانية ،',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                     color: Colors.black,
@@ -419,7 +419,7 @@ class HomeScreenState extends State<HomeScreen>
                         height: 10,
                       ),
                       CustomText(
-                        '  الزراعــــة بين يديــــــك',
+                        '  انعـــــام بين يديــــــك',
                         textAlign: TextAlign.center,
                         height: 1,
                         customTextStyle: Theme.of(context)
@@ -520,7 +520,7 @@ class HomeScreenState extends State<HomeScreen>
             );
           },
           child: Container(
-            color: context.color.mainBrown,
+            color: Color(0xff2364c5),
             padding: EdgeInsetsDirectional.symmetric(vertical: 5),
             child: MarqueeText(
               text: mergedTitle,

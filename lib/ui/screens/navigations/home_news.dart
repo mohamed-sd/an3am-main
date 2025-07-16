@@ -234,8 +234,8 @@ class HomeScreenState extends State<HomeNews>
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
-                            width: 1, color: context.color.mainGold)),
-                    child: Icon(Icons.person, color: context.color.mainGold),
+                            width: 1, color: Colors.white)),
+                    child: Icon(Icons.person, color: Colors.white),
                   ),
                 ),
               ),
@@ -261,13 +261,12 @@ class HomeScreenState extends State<HomeNews>
                   child: appbarTitleWidget()),
             ],
           ),
-
-          backgroundColor: Color(0xff07311A),
+          backgroundColor: context.color.mainBrown,
           foregroundColor: context.color.mainGold,
           // backgroundColor: const Color.fromARGB(0, 0, 0, 0),
           actions: appbarActionsWidget(),
         ),
-        backgroundColor: mainColor,
+        backgroundColor: context.color.mainGold,
         body: Column(
           children: [
             // InkWell(
@@ -278,7 +277,7 @@ class HomeScreenState extends State<HomeNews>
             // ),
             blogMarqueeWidget(),
             Container(
-                color: context.color.mainBrown,
+                color: context.color.mainGold,
                 padding: const EdgeInsetsDirectional.only(
                     start: sidePadding, end: sidePadding, bottom: 10, top: 0),
                 alignment: AlignmentDirectional.centerStart,
@@ -288,7 +287,7 @@ class HomeScreenState extends State<HomeNews>
                 clipBehavior: Clip.antiAliasWithSaveLayer,
                 padding: EdgeInsetsDirectional.only(top: 10, bottom: 80),
                 decoration: BoxDecoration(
-                    color: context.color.primaryColor,
+                    color: Colors.white,
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(40),
                       topRight: Radius.circular(40),
@@ -317,7 +316,7 @@ class HomeScreenState extends State<HomeNews>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   0, 15, 0, 5),
                               child: Text(
-                                'أهلاً بك في مجتمع إنجاز!',
+                                'أهلاً بك في مجتمع انعام!',
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 20,
@@ -342,7 +341,7 @@ class HomeScreenState extends State<HomeNews>
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   0, 5, 3, 0),
                               child: Text(
-                                'لتكون علي خطوة واحدة عن عالم إنجاز.',
+                                'لتكون علي خطوة واحدة عن عالم الثروة الحيوانية.',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                     color: Colors.black,
@@ -362,7 +361,7 @@ class HomeScreenState extends State<HomeNews>
                         height: 10,
                       ),
                       CustomText(
-                        ' مجتمع إنجاز بين يديك',
+                        ' مجتمع انعام بين يديك',
                         textAlign: TextAlign.center,
                         height: 1,
                         customTextStyle: Theme.of(context)
@@ -842,7 +841,7 @@ class HomeScreenState extends State<HomeNews>
             );
           },
           child: Container(
-            color: context.color.mainBrown,
+            color: Color(0xff2364c5),
             padding: EdgeInsetsDirectional.symmetric(vertical: 5),
             child: MarqueeText(
               text: mergedTitle,
@@ -917,10 +916,11 @@ class HomeScreenState extends State<HomeNews>
       height: 100,
       padding: EdgeInsetsDirectional.fromSTEB(15, 0, 15, 0),
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage(AppIcons.categoryBg),
-          fit: BoxFit.fill,
-        ),
+        color: context.color.mainColor,
+        // image: DecorationImage(
+        //   image: AssetImage(AppIcons.categoryBg),
+        //   fit: BoxFit.fill,
+        // ),
         boxShadow: [
           BoxShadow(
             blurRadius: 4,

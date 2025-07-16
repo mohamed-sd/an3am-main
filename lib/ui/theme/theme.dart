@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 ///This color format is different, isn't it? .You can use hex colors here also but you have to remove '#' symbol and add 0xff instead.
 const Color primaryColor_ = Color(0xFFF6F5FA);
 const Color secondaryColor_ = Color(0xFFFFFFFF);
-const Color territoryColor_ = Color(0xff07311A);
+const Color territoryColor_ = Color(0xff2364c5);
 const Color forthColor_ = Color(0xffFA6E53);
 const Color _backgroundColor = primaryColor_; //here you can change if you need
 const Color textDarkColor = Color(0xFF000000);
@@ -17,7 +17,7 @@ Color widgetsBorderColorLight = const Color(0xffEEEEEE).withValues(alpha: 0.6);
 ///Dark Theme Colors
 Color primaryColorDark = const Color(0xff121212);
 Color secondaryColorDark = const Color(0xff1C1C1C).withValues(alpha: 0.9);
-const Color territoryColorDark = Color(0xff07311A);
+const Color territoryColorDark = Color(0xff2364c5);
 Color deactivateColorLight = const Color(0xff7F7F7F);
 
 const Color forthColorDark = Color(0xffFA6E53);
@@ -40,10 +40,10 @@ const Color deactivateButtonColor = Color(0xffFE0000);
 const Color activateButtonColor = Color(0xff07311A);
 
 // Main Application Color
-const Color mainBackground = Color(0xFFeaf2e2);
-const Color mainGoldColor = Color(0xFF7aad44);
-const Color mainBrownColor = Color(0xFF0e6133);
-const Color lightGreenColor = Color(0xFFB0FA62);
+const Color mainBackground = Color(0xFFf3f8ff);
+const Color mainGoldColor = Color(0xFF5599fe);
+const Color mainBrownColor = Color(0xFF2774e6);
+const Color lightGreenColor = Color(0xFFbbfec3);
 
 //Button text color
 const Color buttonTextColor = Colors.white;

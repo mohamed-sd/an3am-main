@@ -1,5 +1,4 @@
-# eClassify
-
+# An3am
 ### 🧰 System Requirements
 
 - **Flutter SDK**: Stable channel, version `3.29.2`
@@ -12,7 +11,7 @@
 Thank you for choosing our app!  
 To learn how to install and use the app, please visit the full documentation:
 
-👉 **[View Documentation](https://wrteamdev.github.io/eClassify/)**
+[//]: # (👉 **[View Documentation]&#40;https://wrteamdev.github.io/eClassify/&#41;**)
 
 ---
 
@@ -20,7 +19,7 @@ To learn how to install and use the app, please visit the full documentation:
 
 If you have any questions or need support, feel free to reach out to our team:
 
-👉 **[Contact Support on Microsoft Teams](https://teams.live.com/l/invite/FEAKcu4QI48saEDvQg)**
+[//]: # (👉 **[Contact Support on Microsoft Teams]&#40;https://teams.live.com/l/invite/FEAKcu4QI48saEDvQg&#41;**)
 
 ---
 
