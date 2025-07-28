@@ -394,7 +394,7 @@ class HomeScreenState extends State<HomeGuide>
                               section1 = true;
                           });
                         },
-                        child: title_card(' إدارة الطلبات والعقودات ', section1,'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA.png?alt=media&token=cde6bd1b-f856-4d00-b418-437ea6e9dbd7'),
+                        child: title_card(' قسم الإجراءات الحكومية المعدنية  ', section1,'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA.png?alt=media&token=cde6bd1b-f856-4d00-b418-437ea6e9dbd7'),
                       ),
                       SizedBox(
                         height: 5,
@@ -415,122 +415,32 @@ class HomeScreenState extends State<HomeGuide>
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '1',
-                                        }, // هذا هو الـ title
-                                      );
+                                          context, Routes.guide);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        'استقبال وتسجيل طلبات العملاء ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F12-%20%D8%A7%D8%B3%D8%AA%D9%82%D8%A8%D8%A7%D9%84%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA%20%D9%85%D9%86%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1.jpeg.jpg?alt=media&token=e8a52bc1-b02c-46a7-8c6d-49095d7258b2'),
+                                    child: GoldShimmerCard(
+                                        title: 'وزارة الثروة الحيوانية',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F21-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%86.jpg?alt=media&token=d3c8296d-641d-40f3-a38d-dbfbff54bc68'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '2',
-                                        }, // هذا هو الـ title
-                                      );
+                                          context, Routes.guide);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        'التحقق من توفر المعدات',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F13-%20%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82%20%D9%85%D9%86%20%D8%AA%D9%88%D9%81%D8%B1%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%88%D8%A8%D9%87.jpeg.jpg?alt=media&token=9d0df0fd-3e19-43d2-8ea0-a2433705b72b'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '3',
-                                        },
-                                      );
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'تسعير الخدمات ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F14-%20%D8%AA%D8%B3%D8%B9%D9%8A%D8%B1%20%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA.jpeg.jpg?alt=media&token=d4ecf7e1-fbb8-4052-b99b-b9f830c3499e'),
+                                    child: GoldShimmerCard(
+                                        title: ' الشركة السودانية للموارد المعدنية',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F22-%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9%20%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.jpg?alt=media&token=a77e081e-1626-4ea5-a32b-88c10866eea2'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '4',
-                                        }, // هذا هو الـ title
-                                      );
+                                          context, Routes.guide);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' جدولة المعدات ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F15-%20%D8%AC%D8%AF%D9%88%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg.jpg?alt=media&token=33a7c485-2030-4887-b79d-cba1dc896790'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '5',
-                                        }, // هذا هو الـ title
-                                      );
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إعداد العقود ومراجعتها ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F16-%20%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF%20%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%AF.jpeg.jpg?alt=media&token=3755050c-6567-4994-a60e-c232750832ba'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '6',
-                                        }, // هذا هو الـ title
-                                      );
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' توقيع العقود ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F17-%20%D8%AA%D9%88%D9%82%D9%8A%D8%B9%20%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%AF.jpeg.jpg?alt=media&token=71154ce6-8b94-4058-8f5b-e001e857dfe4'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(
-                                        context,
-                                        Routes.guide,
-                                        arguments:
-                                        {
-                                          'title': 'إدارة الطلبات',
-                                          'flag': '7',
-                                        }, // هذا هو الـ title
-                                      );
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إدارة تعديلات العقود ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F18-%20%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%AF.jpeg.jpg?alt=media&token=e57da1d3-0811-417a-bbb5-d5a3c477b3c2'),
+                                    child: GoldShimmerCard(
+                                        title: '  الهيئة العامة للأبحاث الجيولوجية ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F23-%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D9%84%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB%20%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9.jpg?alt=media&token=8d13bf00-55ad-4014-ba0a-b994086a9b13'),
                                   ),
                                 ],
                               ),
@@ -551,7 +461,7 @@ class HomeScreenState extends State<HomeGuide>
                               section2 = true;
                           });
                         },
-                        child: title_card(' توقيع عقود الإيجار', section2,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D9%88%D9%82%D9%8A%D8%B9%20%D8%B9%D9%82%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1.png?alt=media&token=83b94bf3-c2d2-4f7d-9171-8b7035893a47"),
+                        child: title_card('التراخيص والإجراءات الولائية', section2,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D9%88%D9%82%D9%8A%D8%B9%20%D8%B9%D9%82%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D9%8A%D8%AC%D8%A7%D8%B1.png?alt=media&token=83b94bf3-c2d2-4f7d-9171-8b7035893a47"),
                       ),
                       SizedBox(
                         height: 5,
@@ -569,15 +479,33 @@ class HomeScreenState extends State<HomeGuide>
                                 crossAxisSpacing: 8,
                                 children: [
                                   // The Card
-
                                   InkWell(
                                     onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إعداد نموذج العقد ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F19-%20%D8%A5%D8%B9%D8%AF%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%A7%D9%84%D8%B9%D9%82%D8%AF.jpeg.jpg?alt=media&token=0392180c-45e6-4eb1-a251-bd1807b808c3'),
+                                    child: GoldShimmerCard(
+                                        title: ' ولاية نهر النيل ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F24-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D9%86%D9%87%D8%B1%20%D8%A7%D9%84%D9%86%D9%8A%D9%84.jpg?alt=media&token=891f465f-c402-478b-9dd4-914a0073bf1e'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' ولاية البحر الأحمر',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%20%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1.jpg?alt=media&token=eebaa313-ff1e-4786-95c9-0ae9d84d2ae1'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.guide);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' الولاية الشمالية ',
+                                        url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F25-%20%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9.jpg?alt=media&token=f37b37fb-18a3-4ce4-be0c-b6a629302fe7'),
                                   ),
                                   InkWell(
                                     onTap: () {
@@ -585,8 +513,8 @@ class HomeScreenState extends State<HomeGuide>
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        ' مراجعة العقد مع العميل ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F20-%20%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B9%D9%82%D8%AF%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%B9%D9%85%D9%8A%D9%84.jpeg.jpg?alt=media&token=3c61fed3-5d40-4318-b340-54362055dd82'),
+                                        '  ولاية الخرطوم ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
                                   ),
                                   InkWell(
                                     onTap: () {
@@ -594,8 +522,53 @@ class HomeScreenState extends State<HomeGuide>
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        'توقيع العقد مع العميل ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F21-%20%D8%AA%D9%88%D9%82%D9%8A%D8%B9%20%D8%A7%D9%84%D8%B9%D9%82%D8%AF%20%D9%85%D8%B9%20%D8%A7%D9%84%D8%B9%D9%85%D9%8A%D9%84.jpeg.jpg?alt=media&token=64b4f570-1a17-42d2-be56-8c8c6654ce99'),
+                                        '  ولاية النيل الازرق ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        '  ولاية سنار ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        '  ولاية القضارف ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        ' جنوب كردفان ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        '  النيل الأزرق ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F28-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%20%D8%A7%D9%84%D8%A7%D8%B2%D8%B1%D9%82.jpg?alt=media&token=43f08a80-8b20-4008-8a55-ded5c09a507b'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        'ولايات دارفور ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F29-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA%20%D8%AF%D8%A7%D8%B1%D9%81%D9%88%D8%B1.jpg?alt=media&token=e1690cf1-9f4a-4a5b-9095-a0b15b80e121'),
                                   ),
                                 ],
                               ),
@@ -616,7 +589,7 @@ class HomeScreenState extends State<HomeGuide>
                               section3 = true;
                           });
                         },
-                        child: title_card('  تجهيز المعدة وتسليمها', section3,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D8%AC%D9%87%D9%8A%D8%B2%20%D9%85%D8%B9%D8%AF%20%D9%88%D8%AA%D8%B3%D9%84%D9%8A%D9%85%D9%87%D8%A7.png?alt=media&token=6ab7e53d-6dc2-4b09-aef4-0f35b6374f45"),
+                        child: title_card('  قسم الجمارك والتراخيص المرورية', section3,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D8%AC%D9%87%D9%8A%D8%B2%20%D9%85%D8%B9%D8%AF%20%D9%88%D8%AA%D8%B3%D9%84%D9%8A%D9%85%D9%87%D8%A7.png?alt=media&token=6ab7e53d-6dc2-4b09-aef4-0f35b6374f45"),
                       ),
                       SizedBox(
                         height: 5,
@@ -636,31 +609,31 @@ class HomeScreenState extends State<HomeGuide>
                                   // The Card
                                   InkWell(
                                     onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
+                                      Navigator.pushNamed(
+                                          context, Routes.guide);
                                     },
-                                    child: custom_card_Item(
-                                      context,
-                                        ' فحص المعدات قبل التسليم ',
-
-                                            'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F22-%20%D9%81%D8%AD%D8%B5%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%82%D8%A8%D9%84%20%D8%A7%D9%84%D8%AA%D8%B3%D9%84%D9%8A%D9%85.jpeg.jpg?alt=media&token=4ec24764-21e6-4ffd-b98d-ec4939bf309c'),
+                                    child: GoldShimmerCard(
+                                        title: ' هيئة الجمارك السودانية ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F30-%20%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B1%D9%83.jpg?alt=media&token=e55c4d3f-e574-4c7e-ace5-cbb74bc38ef3'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' هيئة المواني البحرية ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F31-%20%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6%20%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9.jpg?alt=media&token=7a0a6211-e999-438c-b361-8bb8fb2a1d94'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تعبئة الوقود وتجهيز المعدات ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F23-%20%D8%AA%D8%B9%D8%A8%D8%A6%D8%A9%20%D8%A7%D9%84%D9%88%D9%82%D9%88%D8%AF%20%D9%88%D8%AA%D8%AC%D9%87%D9%8A%D8%B2%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg.jpg?alt=media&token=593784f7-bbea-49ca-9c84-616e3258dcf6'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  تسليم المعدات وتسجيل حالتها ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F24-%20%D8%AA%D8%B3%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg.jpg?alt=media&token=63b44dce-1807-400b-b1c4-5028981af3a6'),
+                                    child: GoldShimmerCard(
+                                        title: ' شرطة المرور العامة ',
+                                        url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F32-%20%D8%B4%D8%B1%D8%B7%D8%A9%20%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%87.jpg?alt=media&token=54db6205-cbb4-4727-8b44-4d404c0a4e59'),
                                   ),
                                 ],
                               ),
@@ -682,7 +655,7 @@ class HomeScreenState extends State<HomeGuide>
                           });
                         },
                         child:
-                            title_card('  تشغيل المعدات في الموقع', section4,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9.png?alt=media&token=c878bc32-5137-46c1-a3ea-2ed74f00f12d"),
+                            title_card(' العمل والتأمينات الاجتماعية', section4,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D8%B4%D8%BA%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA%20%D9%81%D9%8A%20%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9.png?alt=media&token=c878bc32-5137-46c1-a3ea-2ed74f00f12d"),
                       ),
                       SizedBox(
                         height: 5,
@@ -702,31 +675,31 @@ class HomeScreenState extends State<HomeGuide>
                                   // The Card
                                   InkWell(
                                     onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  إرشاد المشغلين علي استلام المعدات ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F25-%20%D8%A5%D8%B1%D8%B4%D8%A7%D8%AF%20%D8%A7%D9%84%D9%85%D8%B4%D8%BA%D9%84%D9%8A%D9%86%20%D8%B9%D9%84%D9%89%20%D8%A7%D8%B3%D8%AA%D9%84%D8%A7%D9%85%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg.jpg?alt=media&token=19ae150a-8865-4237-954e-1b560901bb42'),
+                                    child: GoldShimmerCard(
+                                        title: ' مكتب العمل المركزي ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F33-%20%D9%85%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A.jpg?alt=media&token=90a1ad67-e167-4698-96b1-7c050eb826d6'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' مكاتب العمل بالولايات ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F33-%20%D9%85%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A.jpg?alt=media&token=90a1ad67-e167-4698-96b1-7c050eb826d6'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   متابعة الأداء اليومي للمعدات ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F26-%20%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%A1%20%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A.jpeg.jpg?alt=media&token=10e43727-d30c-4825-868b-f6a12df55cc3'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تسجيل ساعات العمل والإنتاج ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F27-%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%B9%D8%AF%D8%AF%20%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%85%D9%84.jpeg.jpg?alt=media&token=822ae08d-eab7-4514-b8b5-a736191ace23'),
+                                    child: GoldShimmerCard(
+                                        title: ' الهيئة القومية للتأمينات الاجتماعية ',
+                                        url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F34-%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9%20%D9%84%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A5%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9.jpg?alt=media&token=ab0c94ee-5cc0-4f29-aebb-a27eac4502dc'),
                                   )
                                 ],
                               ),
@@ -747,7 +720,7 @@ class HomeScreenState extends State<HomeGuide>
                               section5 = true;
                           });
                         },
-                        child: title_card('صيانة المعدات', section5,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.png?alt=media&token=9a420a25-4ffe-43ef-8b90-fb66219733f2"),
+                        child: title_card('الإجراءات البنكية', section5,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.png?alt=media&token=9a420a25-4ffe-43ef-8b90-fb66219733f2"),
                       ),
                       SizedBox(
                         height: 5,
@@ -767,32 +740,51 @@ class HomeScreenState extends State<HomeGuide>
                                   // The Card
                                   InkWell(
                                     onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إجراء الصيانة الدورية الوقائية ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F28-%20%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%20%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9%20%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A%D8%A9.jpeg?alt=media&token=b9320986-4d93-40f0-8af2-16ba4a5e9cdf'),
+                                    child: GoldShimmerCard(
+                                        title: ' بنك السودان المركزي ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F35-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A.jpg?alt=media&token=22cd3214-3292-423c-81f5-9e993b9bd5e4'),
                                   ),
-
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' بنك الخرطوم ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F36-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85.jpg?alt=media&token=671f716c-5ca0-47b4-9e7c-b2065ca92d8d'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' بنك النيلين ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F37-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D9%8A%D9%86.jpg?alt=media&token=5c4dcb63-db13-4879-b06d-1091748baca3'),
+                                  ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        '  معالجة الأعطال الطارئة',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F29-%20%D9%85%D8%B9%D8%A7%D9%84%D8%AC%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B9%D8%B7%D8%A7%D9%84%20%D8%A7%D9%84%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9.jpeg?alt=media&token=14d55376-be0e-453a-9890-cc62206cf386'),
+                                        ' بنك فيصل ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F38-%20%D8%A8%D9%86%D9%83%20%D9%81%D9%8A%D8%B5%D9%84.jpg?alt=media&token=0eec7be5-0030-468a-9ff1-cf3233eeda3d'),
                                   ),
-
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        ' متابعة حالة المعدات بعد الصيانة',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F30-%20%D9%85%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9%20%D8%AD%D8%A7%D9%84%D8%A9%20%D8%A7%D9%84%D8%A2%D9%84%D9%8A%D8%A9.jpeg?alt=media&token=eeb4d0d9-9f1a-4e97-973e-402cbd9fe815'),
+                                        ' بنك امدرمان ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F39-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%85%D8%AF%D8%B1%D9%85%D8%A7%D9%86.jpg?alt=media&token=464fd11d-8de6-486c-a182-0e8416bede8a'),
                                   ),
                                 ],
                               ),
@@ -813,7 +805,7 @@ class HomeScreenState extends State<HomeGuide>
                               section6 = true;
                           });
                         },
-                        child: title_card('توفير قطع الغيار', section6,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D9%88%D9%81%D9%8A%D8%B1%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1.png?alt=media&token=9e024c50-e1e5-4e15-961d-0346ba9d5566"),
+                        child: title_card('قسم شركات التأمين', section6,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%AA%D9%88%D9%81%D9%8A%D8%B1%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1.png?alt=media&token=9e024c50-e1e5-4e15-961d-0346ba9d5566"),
                       ),
                       SizedBox(
                         height: 5,
@@ -833,45 +825,45 @@ class HomeScreenState extends State<HomeGuide>
                                   // The Card
                                   InkWell(
                                     onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
                                     },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' تحديد احتياجات قطع الغيار للمعدات',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F31-%20%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF%20%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%AC%D8%A7%D8%AA%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1.jpeg?alt=media&token=999fb40d-4922-4b32-bba6-fd146c3331b7'),
+                                    child: GoldShimmerCard(
+                                        title: 'شركة شيكان للتأمين',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F40-%20%D8%B4%D8%B1%D9%83%D8%A9%20%D8%B4%D9%8A%D9%83%D8%A7%D9%86%20%D9%84%D9%84%D8%AA%D8%A3%D9%85%D9%8A%D9%86.jpg?alt=media&token=d3083e0c-32d7-4a24-a7b4-5c54c7dd03ee'),
                                   ),
-
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: 'الشركة التعاونية للتأمين',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F41-%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D9%8A%D8%A9%20%D9%84%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%86.jpg?alt=media&token=74f3dddb-27e7-4900-bc58-b6aa9fb3864b'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.guide);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' شركة النيلين للتأمين ',
+                                        url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F42-%20%D8%A7%D9%84%D9%86%D9%8A%D9%84%D9%8A%D9%86%20%D9%84%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%86.jpg?alt=media&token=061a77cc-eeae-4980-b568-2a0735c6b4dc'),
+                                  ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        ' طلب قطع الغيار من الموردين ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F32-%20%D8%B7%D9%84%D8%A8%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1%20%D9%85%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86.jpeg?alt=media&token=51170098-c7b2-4448-8bfa-6fceb5a67195'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' استلام وتخزين قطع الغيار ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F33-%20%D8%A7%D8%B3%D8%AA%D9%84%D8%A7%D9%85%20%D9%88%D8%AA%D8%AE%D8%B2%D9%8A%D9%86%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1.jpeg?alt=media&token=7a044d53-a762-433a-9130-7868e5065ddd'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' توزيع قطع الغيار علي الفرق الفنية',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F34-%20%D8%AA%D9%88%D8%B2%D9%8A%D8%B9%20%D9%82%D8%B7%D8%B9%20%D8%A7%D9%84%D8%BA%D9%8A%D8%A7%D8%B1.jpeg?alt=media&token=85291ded-e161-41a5-a3b7-191d137166c3'),
+                                        ' شركة البركة للتأمين ',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F43-%20%D8%A7%D9%84%D8%A8%D8%B1%D9%83%D8%A9%20%D9%84%D9%84%D8%AA%D8%A7%D9%85%D9%8A%D9%86.jpg?alt=media&token=2c69f94f-5eb2-4b8d-ba58-b22525058a50'),
                                   ),
                                 ],
                               ),
+                              SizedBox(height: 5,)
+
                             ],
                           ),
                         ),
@@ -879,610 +871,8 @@ class HomeScreenState extends State<HomeGuide>
                         height: 5,
                       ),
 
-                      //section 7
 
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section7)
-                              section7 = false;
-                            else
-                              section7 = true;
-                          });
-                        },
-                        child: title_card('  النقل والترحيل', section7,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D9%84%D9%86%D9%82%D9%84%20%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%AD%D9%8A%D9%84.png?alt=media&token=3ab722e5-3e65-49b4-ac2c-37f073c899c4"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section7)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
 
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' التخطيط لعملية النقل ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F35-%20%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7%20%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D9%86%D9%82%D9%84.jpeg?alt=media&token=54fd3bc0-28d3-4324-9d46-88b394a345cb'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  تجهيز المعدات للنقل ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F36-%20%D8%AA%D8%AC%D9%87%D9%8A%D8%B2%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%87%20%D9%84%D9%84%D9%86%D9%82%D9%84.jpeg?alt=media&token=94975a52-c6e3-4cce-8d59-3352ed7b71d5'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  نقل المعدات الي الموقع المطلوب',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F37-%20%D9%86%D9%82%D9%84%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg?alt=media&token=267df85f-0ba0-4fe4-8f58-cda0089c7958'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تنزيل المعدات في الموقع ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F38-%20%D8%AA%D9%86%D8%B2%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D8%A7%D8%AA.jpeg?alt=media&token=e1fafa06-0927-4299-b7c2-240de0a42b2e'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
-
-                      //section 8
-
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section8)
-                              section8 = false;
-                            else
-                              section8 = true;
-                          });
-                        },
-                        child: title_card('  آليات التحصيل المالي', section8,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D9%84%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A.png?alt=media&token=621a2321-8331-43bf-81f5-e68f5f73ed64"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section8)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   إصدار الفواتير ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   متابعة تحصيل المدفوعات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  استلام المدفوعات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تسوية الحسابات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
-
-                      //section 9
-
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section9)
-                              section9 = false;
-                            else
-                              section9 = true;
-                          });
-                        },
-                        child: title_card('  إدارة القوى البشرية', section9,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%82%D9%88%D9%89%20%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9.png?alt=media&token=4498c5ec-f3b6-4bea-bfbf-4c72df1ce1d3"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section9)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تحديد احتياجات القوى البشرية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   الإعلان عن الوظائف واستقبال الطلبات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   إجراء التقييمات والمقابلات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   توظيف العاملين الجدد وتوجيههم ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' تدريب وتطوير القوى البشرية ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إدارة شؤون الموظفين',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   تدوير العاملين بين المواقع ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
-
-                      //secation 10
-
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section10)
-                              section10 = false;
-                            else
-                              section10 = true;
-                          });
-                        },
-                        child:
-                            title_card(' إدارة العمليات الميدانية', section10,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A%D8%A9.png?alt=media&token=34ea721c-0199-4c3c-a9be-e28dd4badd59"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section10)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   إصدار الفواتير ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' تنظيم وتنسيق فرق العمل الميدانية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إدارة المعدات الميدانية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' متابعة كفاءة الاداء الميداني',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   التعامل مع الطوارئ الميدانية ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   ضمان تطبيق إجراءات السلامة والجودة ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إدارة التواصل مع العملاء الميدانيين',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
-
-                      //secation 11
-
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section11)
-                              section11 = false;
-                            else
-                              section11 = true;
-                          });
-                        },
-                        child: title_card(' إدارة علاقات العملاء', section11,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1.png?alt=media&token=a091d4c4-069e-4882-ab47-6894621d9314"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section11)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' تسجيل بيانات العملاء',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'التواصل مع العملاء',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  إدارة شكاوى العملاء ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' متابعة عقود العملاء',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'قياس رضا العملاء ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   بناء ولاء العملاء ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'متابعة الملاحظات والتوصيات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
-
-                      // section 12
-
-                      InkWell(
-                        onTap: () {
-                          setState(() {
-                            if (section12)
-                              section12 = false;
-                            else
-                              section12 = true;
-                          });
-                        },
-                        child: title_card(
-                            '   إدارة المشتروات التشغيلية', section12,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%88%D8%A7%D8%AA.png?alt=media&token=057e2cda-8d62-49cf-91e9-7d9339f24c73"),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      if (section12)
-                        Padding(
-                          padding: EdgeInsets.symmetric(horizontal: 15),
-                          child: Column(
-                            children: [
-                              GridView.count(
-                                shrinkWrap: true,
-                                physics: NeverScrollableScrollPhysics(),
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 8,
-                                crossAxisSpacing: 8,
-                                children: [
-                                  // The Card
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'تحديد الاحتياجات التشغيلية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   إعداد طلبات الشراء ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   الاتفاق مع الموردين المحليين المناسبين  ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '   متابعة تنفيذ المشتروات ',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'فحص المواد المستلمة',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        'إدارة المخزون التشغيلي',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' التعامل مع الطوارئ التشغيلية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' تحديد الإحتياجات التشغيلية',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' إعداد طلبات الشراء',
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/irp2v834y4x6/12_copy.jpg'),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      SizedBox(
-                        height: 5,
-                      ),
                     ],
                   ),
                 ),

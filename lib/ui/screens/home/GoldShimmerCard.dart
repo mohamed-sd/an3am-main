@@ -61,7 +61,7 @@ class _GoldShimmerCardState extends State<GoldShimmerCard>
     return AnimatedBuilder(
       animation: _animation,
       builder: (context, child) {
-        final image = UiUtils.imageType("https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/enjaz-apk7iy/assets/nobgwtm6rjei/12-_%D8%A7%D9%84%D8%B9%D9%82%D9%88%D8%AF%D8%A7%D8%AA_%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9.jpg", fit: BoxFit.cover);
+        final image = UiUtils.imageType(widget.url, fit: BoxFit.cover);
 
         if (animationEnded) {
           return _buildCard(image); // بعد انتهاء اللمعة، فقط الصورة

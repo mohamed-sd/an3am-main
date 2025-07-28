@@ -381,7 +381,7 @@ class HomeScreenState extends State<HomeNews>
                             else section1 = true;
                           });
                         },
-                        child: title_card('  إرشاداتي' , section1,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%B1%D8%B4%D8%A7%D8%AF%D8%A7%D8%AA%D9%8A.png?alt=media&token=3eb93819-37cb-4b53-86d6-299f9b79e4b1"),
+                        child: title_card('   الااخبار والشركات' , section1,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%B1%D8%B4%D8%A7%D8%AF%D8%A7%D8%AA%D9%8A.png?alt=media&token=3eb93819-37cb-4b53-86d6-299f9b79e4b1"),
                       ),
                       SizedBox(
                         height: 5,
@@ -402,24 +402,33 @@ class HomeScreenState extends State<HomeNews>
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(
-                                          context, Routes.soon);
+                                          context, Routes.blogsScreenRoute);
                                     },
                                     child: GoldShimmerCard(
-                                        title: ' تشغيل المعدات الثقيلة',
+                                        title: 'أخبار الثروة الحيوانية',
                                         url:
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/pn7ueo7p1ys1/4-_%D9%85%D8%AF%D9%88%D9%86%D8%A9_%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%86.jpg'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F44-%20%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%86.jpeg.jpg?alt=media&token=602fdc8e-de80-42f7-934f-b41ab9ddfcaa'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(
-                                          context, Routes.mine);
+                                          context, Routes.blogsScreenRoute);
                                     },
                                     child: GoldShimmerCard(
-                                        title: '  تشغيل المنجم ',
+                                        title: ' أخبار الشركات ',
                                         url:
-                                        'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/cchsh9teg1dp/3-_%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%81%D9%88%D9%86_%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%86.jpg'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F61-%20%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA.jpg?alt=media&token=c9a5210e-85ea-49c4-b146-b16936e21879'),
                                   ),
-
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.blogsScreenRoute);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' تحديثات الجهات الرسمية والوزارات ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F45-%20%D8%AA%D8%AD%D8%AF%D9%8A%D8%AB%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA.jpeg.jpg?alt=media&token=3181874b-3bcf-4f46-8195-8cb905b9bcc8'),
+                                  ),
 
                                 ],
                               ),
@@ -438,7 +447,7 @@ class HomeScreenState extends State<HomeNews>
                             else section2 = true;
                           });
                         },
-                        child: title_card(' مستلزماتي' , section2,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D9%85%D8%B3%D8%AA%D9%84%D8%B2%D9%85%D8%A7%D8%AA%D9%8A.png?alt=media&token=a0faa9ae-2e84-457e-8018-b08ce8f285e3"),
+                        child: title_card(' الأسواق والأسعار' , section2,"https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D9%85%D8%B3%D8%AA%D9%84%D8%B2%D9%85%D8%A7%D8%AA%D9%8A.png?alt=media&token=a0faa9ae-2e84-457e-8018-b08ce8f285e3"),
                       ),
                       SizedBox(
                         height: 5,
@@ -462,9 +471,9 @@ class HomeScreenState extends State<HomeNews>
                                           context, Routes.soon);
                                     },
                                     child: GoldShimmerCard(
-                                        title: ' مستلزمات المشغل ',
+                                        title: ' سوق الثروة الحيوانية ',
                                         url:
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/appimg%2F4-%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D8%A9.jpg?alt=media&token=a718d3dc-a85e-46f1-9c24-aef3f06ab8dc'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F46-%20%D8%A8%D9%88%D8%B1%D8%B5%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%86.jpg?alt=media&token=bfcf5a8f-ee16-4da7-8ce4-aca6e530a9f0'),
                                   ),
                                   InkWell(
                                     onTap: () {
@@ -472,17 +481,17 @@ class HomeScreenState extends State<HomeNews>
                                           context, Routes.soon);
                                     },
                                     child: GoldShimmerCard(
-                                        title: '  مستلزمات المنجم ',
+                                        title: ' أسعار الثروة الحيوانية ',
                                         url:
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/appimg%2F4-%20%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%85%D9%8A%D8%A9.jpg?alt=media&token=a718d3dc-a85e-46f1-9c24-aef3f06ab8dc'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F47-%20%D8%A7%D8%B3%D8%B9%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%AA.jpg?alt=media&token=e99250f6-6ec0-4ea4-aaa0-e8192c7e5622'),
                                   ),
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
                                     child: GoldShimmerCard(
-                                        title: '    مستلزمات المعدة ',
-                                        url: 'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/wzgkssd9rseh/71_copy.jpg'),
+                                        title: ' تقارير سوقية وتحليلات اقتصادية ',
+                                        url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Miningclub%2F48-%20%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1%20%D8%B3%D9%88%D9%82.jpg?alt=media&token=a4090223-34c3-4650-b8e0-ddecef16c131'),
                                   ),
 
                                 ],
@@ -654,7 +663,7 @@ class HomeScreenState extends State<HomeNews>
                                           context, Routes.soon);
                                     },
                                     child: GoldShimmerCard(
-                                        title: ' بودكاست التعدين ',
+                                        title: ' بودكاست انعام ',
                                         url:
                                         'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/mining-market-firebase-ym2dfj/assets/cchsh9teg1dp/3-_%D9%85%D9%8A%D9%83%D8%B1%D9%88%D9%81%D9%88%D9%86_%D8%A7%D9%84%D8%AA%D8%B9%D8%AF%D9%8A%D9%86.jpg'),
                                   ),
