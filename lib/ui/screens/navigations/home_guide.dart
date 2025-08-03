@@ -394,7 +394,7 @@ class HomeScreenState extends State<HomeGuide>
                               section1 = true;
                           });
                         },
-                        child: title_card(' قسم الإجراءات الحكومية المعدنية  ', section1,'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA.png?alt=media&token=cde6bd1b-f856-4d00-b418-437ea6e9dbd7'),
+                        child: title_card(' الإجراءات الحكومية (الثروة الحيوانية)', section1,'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/enjaz%2F%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%D8%A7%D8%AA.png?alt=media&token=cde6bd1b-f856-4d00-b418-437ea6e9dbd7'),
                       ),
                       SizedBox(
                         height: 5,
@@ -418,9 +418,9 @@ class HomeScreenState extends State<HomeGuide>
                                           context, Routes.guide);
                                     },
                                     child: GoldShimmerCard(
-                                        title: 'وزارة الثروة الحيوانية',
+                                        title: 'وزارة الثروة الحيوانية والسمكية',
                                         url:
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F21-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%86.jpg?alt=media&token=d3c8296d-641d-40f3-a38d-dbfbff54bc68'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F21-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%AB%D8%B1%D9%88%D8%A9%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A%D8%A9.jpg?alt=media&token=f259b7af-4415-429d-ab35-c4df81faaa1e'),
                                   ),
                                   InkWell(
                                     onTap: () {
@@ -428,9 +428,9 @@ class HomeScreenState extends State<HomeGuide>
                                           context, Routes.guide);
                                     },
                                     child: GoldShimmerCard(
-                                        title: ' الشركة السودانية للموارد المعدنية',
+                                        title: ' الهيئة العامة للخدمات البيطرية',
                                         url:
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F22-%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86%D9%8A%D8%A9%20%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D8%A9.jpg?alt=media&token=a77e081e-1626-4ea5-a32b-88c10866eea2'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F22-%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D9%84%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%B1%D9%8A%D8%A9.jpg?alt=media&token=bc3a2624-4859-48a9-a13c-c6f284d15880'),
                                   ),
                                   InkWell(
                                     onTap: () {
@@ -438,9 +438,40 @@ class HomeScreenState extends State<HomeGuide>
                                           context, Routes.guide);
                                     },
                                     child: GoldShimmerCard(
-                                        title: '  الهيئة العامة للأبحاث الجيولوجية ',
+                                        title: ' الإدارة العامة لصحة الحيوان ',
                                         url:
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F23-%20%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D9%84%D9%84%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB%20%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A9.jpg?alt=media&token=8d13bf00-55ad-4014-ba0a-b994086a9b13'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F23-%20%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D9%84%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D9%88%D9%82%D8%A7%D9%8A%D8%A9%20%D9%85%D9%86%20%D8%A7%D9%84%D8%A3%D9%88%D8%A8%D8%A6%D8%A9.jpg?alt=media&token=bd40d5dc-7217-4ff2-8bb1-2b56c810c234'),
+                                  ),
+
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.guide);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' إدارة الإنتاج الحيواني',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F26-%20%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%20%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D9%8A.jpg?alt=media&token=a2b85ce8-4d03-44b2-92c4-59a306242e16'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.guide);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' الجهاز القومي للمواصفات والمقاييس',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F24-%20%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2%20%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%20%D9%84%D9%84%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA%20%D9%88%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3.jpg?alt=media&token=19045ebc-2160-4383-bb15-bdb12ff51220'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.guide);
+                                    },
+                                    child: GoldShimmerCard(
+                                        title: ' هيئة البحوث الزراعية – قسم بحوث الحيوان',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F25-%20%D9%87%D9%8A%D8%A6%D8%A9%20%D8%A7%D9%84%D8%A8%D8%AD%D9%88%D8%AB%20%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9.jpg?alt=media&token=2c9290a8-3891-45c0-bbe4-b1b4a73b632f'),
                                   ),
                                 ],
                               ),
@@ -485,6 +516,16 @@ class HomeScreenState extends State<HomeGuide>
                                           context, Routes.soon);
                                     },
                                     child: GoldShimmerCard(
+                                        title: ' ولاية الخرطوم ',
+                                        url:
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F27-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85.jpg?alt=media&token=d0efc361-f078-4e94-8b4c-1d7e3c7ce95b'),
+                                  ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                          context, Routes.soon);
+                                    },
+                                    child: GoldShimmerCard(
                                         title: ' ولاية نهر النيل ',
                                         url:
                                         'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F24-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D9%86%D9%87%D8%B1%20%D8%A7%D9%84%D9%86%D9%8A%D9%84.jpg?alt=media&token=891f465f-c402-478b-9dd4-914a0073bf1e'),
@@ -507,22 +548,15 @@ class HomeScreenState extends State<HomeGuide>
                                         title: ' الولاية الشمالية ',
                                         url: 'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F25-%20%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9.jpg?alt=media&token=f37b37fb-18a3-4ce4-be0c-b6a629302fe7'),
                                   ),
+
+
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
                                     },
                                     child: custom_card_Item(
                                         context,
-                                        '  ولاية الخرطوم ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  ولاية النيل الازرق ',
+                                        ' ولاية جنوب كردفان',
                                         'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
                                   ),
                                   InkWell(
@@ -532,26 +566,9 @@ class HomeScreenState extends State<HomeGuide>
                                     child: custom_card_Item(
                                         context,
                                         '  ولاية سنار ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/anaam%2F28-%20%D9%88%D9%84%D8%A7%D9%8A%D8%A9%20%D8%B3%D9%86%D8%A7%D8%B1.jpg?alt=media&token=96431474-4971-45ac-a94c-6b7b8428af3f'),
                                   ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        '  ولاية القضارف ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
-                                  ),
-                                  InkWell(
-                                    onTap: () {
-                                      Navigator.pushNamed(context, Routes.soon);
-                                    },
-                                    child: custom_card_Item(
-                                        context,
-                                        ' جنوب كردفان ',
-                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F27-%20%D8%AC%D9%86%D9%88%D8%A8%20%D9%83%D8%B1%D8%AF%D9%81%D8%A7%D9%86.jpg?alt=media&token=594f29b1-d055-4b72-bc0b-f1261bea0d89'),
-                                  ),
+
                                   InkWell(
                                     onTap: () {
                                       Navigator.pushNamed(context, Routes.soon);
@@ -786,6 +803,17 @@ class HomeScreenState extends State<HomeGuide>
                                         ' بنك امدرمان ',
                                         'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F39-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%85%D8%AF%D8%B1%D9%85%D8%A7%D9%86.jpg?alt=media&token=464fd11d-8de6-486c-a182-0e8416bede8a'),
                                   ),
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.pushNamed(context, Routes.soon);
+                                    },
+                                    child: custom_card_Item(
+                                        context,
+                                        'بنك الثروة الحيوانية',
+                                        'https://firebasestorage.googleapis.com/v0/b/miningmarket-firebase.appspot.com/o/Bareeq%2F39-%20%D8%A8%D9%86%D9%83%20%D8%A7%D9%85%D8%AF%D8%B1%D9%85%D8%A7%D9%86.jpg?alt=media&token=464fd11d-8de6-486c-a182-0e8416bede8a'),
+                                  ),
+
+
                                 ],
                               ),
                             ],
