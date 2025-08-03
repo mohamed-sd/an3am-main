@@ -96,6 +96,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/svg/maintenance.svg
     - assets/main.png
     - assets/guid.jpg
     - assets/profile.jpg

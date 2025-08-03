@@ -7,6 +7,8 @@ class AppIcons {
 
   static final MainIcons main = MainIcons();
 
+  static String maintanance = _svgPath("maintenance");
+
   static String splashLogo = _svgPath("Logo/splashlogo");
   static String appbarLogo = _svgPath("Logo/appbarLogo");
 

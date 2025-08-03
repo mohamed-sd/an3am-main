@@ -946,12 +946,8 @@ class AdDetailsScreenState extends CloudState<AdDetailsScreen> {
                                                                   BorderRadius
                                                                       .circular(
                                                                       10),
-                                                                  color: Color
-                                                                      .fromARGB(
-                                                                      255,
-                                                                      220,
-                                                                      220,
-                                                                      220)),
+                                                                  color: Color(
+                                                                      0xffa5c9ff)),
                                                               child: Text(
                                                                 model
                                                                     .customFields![
